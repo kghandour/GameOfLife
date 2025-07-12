@@ -1,0 +1,23 @@
+{
+  "name": "gameoflife",
+  "version": "0.0.1",
+  "description": "An Opensource ElectronJS application that earns you stats while you achieve real life goals",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kghandour/GameOfLife.git"
+  },
+  "author": "Karim ElGhandour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kghandour/GameOfLife/issues"
+  },
+  "homepage": "https://github.com/kghandour/GameOfLife#readme",
+  "devDependencies": {
+    "electron": "^37.2.1"
+  }
+}
