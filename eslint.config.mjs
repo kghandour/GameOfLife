@@ -9,4 +9,9 @@ export default defineConfig([
   { files: ["**/*.js"], languageOptions: { sourceType: "commonjs" } },
   { files: ["**/*.{js,mjs,cjs}"], languageOptions: { globals: {...globals.browser, ...globals.node} } },
   { files: ["**/*.css"], plugins: { css }, language: "css/css", extends: ["css/recommended"] },
+  {
+    rules: { 
+      "indent": ["error", 2]
+    }
+  }
 ]);
